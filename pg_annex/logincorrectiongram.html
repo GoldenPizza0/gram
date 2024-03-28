@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<title>Game on grammar</title>
+        <script type="text/javascript">
+            function verify() { 
+                var msg; 
+                var pwd = document.getElementById("pwd").value;
+                if (pwd==="correctgrammar1234*") 
+                    window.location = "grammargame_correction.html";
+                else 
+                    msg = "<p style='color:red'>Incorrect Password !</p>"; 
+                document.getElementById("msg").innerHTML= msg;
+            } 
+            
+        </script>
+    </head>
+
+	<body>
+        <h1>/!\ Password given once the questionnaire is completed !</h1>
+        <div>
+            <label for="pass">Password :</label>
+            <input type="password" id="pwd" name="password" required />
+        </div>
+        <span id="msg"></span> 
+        </br>
+        <button onclick="verify()">Submit</button>
+    </body>
+</html>
