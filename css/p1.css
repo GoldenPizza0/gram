@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+    background: linear-gradient(black, red);
+    color: white;
+    padding: 50px 50px 40px;
+    font-size: 50px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bt {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.bt:hover {
+    background-color: black;
+}
+
+.bt:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*footer*/
+footer img{
+    height: auto;
+    width: 5%;
+}
+
+footer a{
+    text-decoration: None;
+    color: #0248b1;
+}
+
+footer{
+    background: linear-gradient(red, black);
+    color: white;
+    padding: 10px;
+}
