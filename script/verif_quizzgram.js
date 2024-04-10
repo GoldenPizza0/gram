@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         var reponsesChoix = document.querySelectorAll("select[name='p6']");
         reponsesChoix.forEach(function(select) {
-            if (select.value === "prp") {
+            if (select.value === "pas") {
                 score++;
             }    
         });
